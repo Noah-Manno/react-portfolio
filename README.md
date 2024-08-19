@@ -6,7 +6,7 @@
 
 This is a React-based portfolio website showcasing my skills, projects, and professional background as a Full Stack Web Developer. The site includes sections for Home, About Me, Contact Me, Resume, and Portfolio.
 
-Live Demo:
+Live Demo: https://aquamarine-cuchufli-5e92e8.netlify.app/
 
 ## Table of Contents
 
