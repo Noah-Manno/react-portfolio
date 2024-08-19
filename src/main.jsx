@@ -5,9 +5,9 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import AboutMe from './pages/AboutMe.jsx'
-// import ContactMe from './pages/ContactMe.jsx'
-// import Portfolio from './pages/Portfolio.jsx'
-// import Resume from './pages/Resume.jsx'
+import ContactMe from './pages/ContactMe.jsx'
+import Portfolio from './pages/Portfolio.jsx'
+import Resume from './pages/Resume.jsx'
 import Home from './pages/Home.jsx'
 
 const router = createBrowserRouter([
@@ -24,18 +24,18 @@ const router = createBrowserRouter([
         path: '/aboutme',
         element: <AboutMe />,
       },
-      // {
-      //   path: '/contactme',
-      //   element: <ContactMe />,
-      // },
-      // {
-      //   path: '/portfolio',
-      //   element: <Portfolio />,
-      // },
-      // {
-      //   path: '/resume',
-      //   element: <Resume />
-      // }
+      {
+        path: '/contactme',
+        element: <ContactMe />,
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: '/resume',
+        element: <Resume />
+      }
     ]
   }
 ])
