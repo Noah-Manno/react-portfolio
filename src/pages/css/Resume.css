@@ -1,0 +1,97 @@
+.resume-container {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../../assets/computerBackground.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .resume-content {
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+    max-width: 800px;
+  }
+  
+  .resume-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 2s ease-out forwards;
+  }
+  
+  .resume-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 2s ease-out 0.5s forwards;
+  }
+  
+  .resume-info, .resume-job-description {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  
+  .resume-project, .resume-job {
+    margin-bottom: 1.5rem;
+  }
+  
+  .resume-project-title, .resume-job-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .resume-download-button {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 50px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+  }
+  
+  .resume-download-button:hover {
+    background: #0056b3;
+    transform: translateY(-5px);
+  }
+  
+  .resume-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
